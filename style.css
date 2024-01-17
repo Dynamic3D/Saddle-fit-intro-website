@@ -139,9 +139,9 @@ input,
 select,
 textarea { 
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'barlow-condensed', sans-serif;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 
@@ -149,123 +149,20 @@ textarea {
 	4.0 Typography
 ================================================================== */
 
-.barlow-thin {
-	font-family: "Barlow", sans-serif;
-	font-weight: 100;
-	font-style: normal;
-  }
-  
-  .barlow-thin-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 100;
-	font-style: italic;
-  }
-  
-  .barlow-extralight {
-	font-family: "Barlow", sans-serif;
-	font-weight: 200;
-	font-style: normal;
-  }
-  
-  .barlow-extralight-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 200;
-	font-style: italic;
-  }
-  
-  .barlow-light {
-	font-family: "Barlow", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-  }
-  
-  .barlow-light-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-  }
-  
-  .barlow-regular {
-	font-family: "Barlow", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-  }
-  
-  .barlow-regular-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 400;
-	font-style: italic;
-  }
-  
-  .barlow-medium {
-	font-family: "Barlow", sans-serif;
-	font-weight: 500;
-	font-style: normal;
-  }
-  
-  .barlow-medium-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 500;
-	font-style: italic;
-  }
-  
-  .barlow-semibold {
-	font-family: "Barlow", sans-serif;
-	font-weight: 600;
-	font-style: normal;
-  }
-  
-  .barlow-semibold-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 600;
-	font-style: italic;
-  }
-  
-  .barlow-bold {
-	font-family: "Barlow", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-  }
-  
-  .barlow-bold-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 700;
-	font-style: italic;
-  }
-  
-  .barlow-extrabold {
-	font-family: "Barlow", sans-serif;
-	font-weight: 800;
-	font-style: normal;
-  }
-  
-  .barlow-extrabold-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 800;
-	font-style: italic;
-  }
-  
-  .barlow-black {
-	font-family: "Barlow", sans-serif;
-	font-weight: 900;
-	font-style: normal;
-  }
-  
-  .barlow-black-italic {
-	font-family: "Barlow", sans-serif;
-	font-weight: 900;
-	font-style: italic;
-  }
+.text-white.nomargin {
+    text-transform: uppercase;
+}
 
   
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'barlow', sans-serif;
-	font-weight: 300;
+h1, h2, h4, h5, h6 {
+	font-family: 'barlow-condensed', sans-serif;
+	font-weight: 700;
 	font-size: large;
 	margin-bottom: 15px;
 	position: relative;
 	color: #333;
+	text-transform: capitalize;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -284,8 +181,12 @@ h2 {
 }
 
 h3 {
+	font-family: 'barlow-condensed', sans-serif;
 	font-size: 32px;
 	line-height: 46px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
 }
 
 h4 {
@@ -619,7 +520,12 @@ video {
 
 .text-white  {
 	color: #fff !important;
+
 }
+.text-white.nomargin {
+    text-transform: uppercase;
+}
+
 
 .text-dark  {
 	color: #333 !important;
@@ -1364,8 +1270,9 @@ fieldset[disabled] .form-control {
 .icon-box h3,
 .icon-box-2 h3 {
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 700;
 	line-height: 24px;
+	text-transform: capitalize;
 }
 
 /* Style 1 */
@@ -3901,9 +3808,10 @@ body.mobile .on-mobile {
 		padding-bottom: 50px;
 	}
 	
-	.text-slider {<div class="overlay-image cover-background on-mobile" style="background-image: url('demo/video/marine.jpg');"></div>i 
+	.text-slider {<div class="overlay-image cover-background on-mobile" style="background-image: url;"></div>i 
 		padding-top: 37px;
 		margin-bottom: 30px;
+		
 	}
 	
 	h1 {
@@ -4090,6 +3998,17 @@ body.mobile .on-mobile {
 		display: block !important;
 		width: 100%;
 	}
+
+	.col-md-6.col-md-offset-3.col-sm-6.col-sm-offset-3 {
+		margin-bottom: 20px;
+	}
+	
+	@media (min-width: 992px) { /* Adjust 992px to your desktop breakpoint if different */
+		.col-md-6.col-md-offset-3.col-sm-6.col-sm-offset-3 {
+			margin-bottom: 20px;
+		}
+	}
+	
 
 	.video-darken-overlay {
 		position: absolute;
