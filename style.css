@@ -219,17 +219,28 @@ table {
 body {
 	color: #333;
 	font-size: 14px;
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: normal;
-	line-height: 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter; /* Montserrat Light */
+	line-height: 30px;
 	background: #fff;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	overflow-x: hidden;
 	white-space: normal;
 	position: relative;
+	margin-bottom: 16px; /* Bottom Margin: 16px */
 }
+
+/* For the specific text element with Montserrat Light and 18px size, grey color, and 26px line height, you can use a class or ID selector like this: */
+
+#specialText {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	line-height: 26px;
+	color: grey; /* Color: Grey */
+}
+
 
 .main-container {
 	clear: both;
@@ -260,12 +271,12 @@ h2,
 h4,
 h5,
 h6 {
-	font-family: 'barlow-condensed', sans-serif;
+	font-family: 'barlow-condense', sans-serif;
 	font-weight: 700;
-	font-size: large;
+	font-size: smaller;
 	margin-bottom: 15px;
 	position: relative;
-	color: #333;
+	color: #e7e7e7;
 	text-transform: capitalize;
 }
 
@@ -744,7 +755,23 @@ video {
 
 .font-opensans {
 	font-family: 'Open Sans', serif;
+
 }
+
+.montserrat-uniquifier {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.barlow-condensed-light {
+	font-family: "Barlow Condensed", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  
 
 .clear {
 	clear: both;
