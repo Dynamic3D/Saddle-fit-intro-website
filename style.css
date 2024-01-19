@@ -133,11 +133,11 @@ table {
 ================================================================== */
 
 body {
-	color: #000000;
-	font-size: 14px;
+	color: rgb(121, 121, 121);
+	font-size: 18px;
 	font-family: 'Montserrat-light', sans-serif;
 	font-weight: lighter; /* Montserrat Light */
-	line-height: 30px;
+	line-height: 26px;
 	background: #fff;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -172,13 +172,14 @@ textarea {
 ================================================================== */
 /* Headings */
 h1 {
-	font-family: 'Barlow-condensed', sans-serif;
-	font-weight: 300;
-	font-size: 50px;
-	text-transform: uppercase;
-	margin-bottom: 50px;
-	position: relative;
-	color: #ffffff;
+		font-family: 'Barlow-condensed', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		color: #ffffff;
+	}
 
 	
 }
@@ -280,9 +281,10 @@ p {
 }
 
 p.lead {
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 300;
+	margin-bottom: 16px;
 }
 
 p:last-child {
@@ -1336,10 +1338,13 @@ fieldset[disabled] .form-control {
 
 .icon-box h3,
 .icon-box-2 h3 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 24px;
-	text-transform: capitalize;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	
 }
 
 /* Style 1 */
@@ -1404,7 +1409,7 @@ fieldset[disabled] .form-control {
 .icon-box-2 .icon-box-icon {
 	font-size: 64px;
 	line-height: 74px;
-	color: #5C80B6;
+	color: #2B364B;
 	position: relative;
 	margin-bottom: 10px;
 	z-index: 10;
@@ -3390,7 +3395,7 @@ a.button-image:hover {
 /*	13.1 Background Color Styles
 	-------------------------------------------------------------- */
 .background-white {
-	background: #fff !important;
+	background: #F7F7F6 !important;
 }
 
 .background-dark {
