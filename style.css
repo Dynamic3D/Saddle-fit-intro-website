@@ -195,6 +195,7 @@ h2 {
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
+	font-size: 34px;
 	font-weight: 300;
 	margin-bottom: 15px;
 	position: relative;
@@ -217,9 +218,9 @@ h1 a, h2 a, h3 a, h4 a {
 
 h1 {
 	font-size: 80px; /* Font: Barlow Condensed Bold Size: 80px (4.44rem) */
-	line-height: 50px; /* Adjusted for visual alignment */
+	line-height: 500px; /* Adjusted for visual alignment */
 	font-weight: bold; /* Font: Barlow Condensed Bold */
-	margin-bottom: 50px;
+
 }
 
 h2 {
@@ -230,7 +231,7 @@ h2 {
 }
 
 h3 {
-	font-size: 34px; /* Font: Montserrat Semi-Bold Size: 34px (1.89rem) */
+	font-size: 18px; /* Font: Montserrat Semi-Bold Size: 34px (1.89rem) */
 	line-height: 30px;
 	font-weight: 600; /* Font: Montserrat Semi-Bold */
 	margin-bottom: 30px;
